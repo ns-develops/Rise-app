@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, Touchable, TouchableOpacity } from 'react-native';
 
 const App = () => {
   return (
@@ -16,6 +16,21 @@ const App = () => {
         >
           Quote of the Day
         </Text>
+        <Text
+          style={{
+            color: '#000',
+            fontSize: 16,
+            lineHeight: 26,
+            letterSpacing: 1.1,
+            fontWeight: '400',
+            textAlign: 'center',
+            marginBottom: 10,
+            paddingHorizontal: 30,
+          }}>
+            "Test text under the quote"
+            </Text>
+     
+            <Text>New Quote</Text>
       </View>
     </View>
   );
