@@ -1,8 +1,9 @@
-`Expo Go is required: `
+`Installing the app from the link:
+Open the link in your Android phone’s web browser (e.g., Chrome).
+You’ll see a page where you can download the app file (APK).
+Tap Download or Install to start downloading the app.
 <br>
-`The app opens in Expo Go, which is a free app from Expo on the App Store or Google Play.`
-<br>
-`You can use the app just like you would with an regular app, interact with ui, press buttons, etc. and follow updates in real-time.`
-<br>
-`After logging in, press Preview and Expo Go.`
-
+If your phone warns you that the app is from “unknown sources,” you need to allow installation from external sources:
+Go to Settings > Security > Allow installation from unknown sources (this may vary by device).
+Once the download finishes, tap the file to install the app.
+After installation, you can open and use the app as usual.`
