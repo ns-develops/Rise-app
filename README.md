@@ -1,5 +1,7 @@
-`Installing the app from the link:
-Open the link in your Android phone’s web browser (e.g., Chrome).
+`Installing the app from the link:`
+<br>
+<br>
+`Open the link in your Android phone’s web browser (e.g., Chrome).
 You’ll see a page where you can download the app file (APK).
 Tap Download or Install to start downloading the app.`
 <br>
