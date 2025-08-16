@@ -15,4 +15,4 @@ After installation, you can open and use the app as usual.`
 `Or use the preview link: `
 <br>
 <br>
-`https://expo.dev/preview/update?message=Initial+publish&updateRuntimeVersion=1.0.0&createdAt=2025-08-13T22%3A43%3A14.282Z&slug=exp&projectId=6ddeaeb5-eaa1-4bfa-8596-19317e4f2431&group=0df2e4d4-3fd4-41d3-9246-5ddd2aabe4d3`
+`https://expo.dev/accounts/nasa01/projects/Quotesappnew/updates/22c96c32-2120-4db9-abb0-6c911d6e2c57`
