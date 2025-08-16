@@ -20,7 +20,8 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.nasa01.Quotesappnew"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -35,6 +36,7 @@
     },
     "updates": {
       "url": "https://u.expo.dev/6ddeaeb5-eaa1-4bfa-8596-19317e4f2431"
-    }
+    },
+    "owner": "nasa01"
   }
 }

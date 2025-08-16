@@ -12,7 +12,7 @@ const App = () => {
       const res = await fetch('https://stoic-quotes.com/api/quotes?num=1');
       const result = await res.json();
       console.log('Fetched quote:', result);
-      setQuote(result[0].text); 
+      setQuote(result[0].text);
       setAuthor(result[0].author);
     } catch (error) {
       console.error('Error fetching quote:', error);
