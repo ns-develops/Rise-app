@@ -42,7 +42,6 @@ const QuotesScreen = ({ navigation }) => {
     <View style={{ flex: 1, backgroundColor: '#F0F0F0' }}>
       <StatusBar style="light" />
       
-      {/* Settingsknapp i övre högra hörnet */}
       <TouchableOpacity
         onPress={() => navigation.navigate('Settings')}
         style={{
