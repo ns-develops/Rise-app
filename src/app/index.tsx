@@ -1,10 +1,22 @@
 import React from "react";
-import { Text, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 
 export default function Page() {
   return (
-    <View className="flex-1 justify-center items-center">
-      <Text style={{ fontSize: 64, fontWeight: "bold" }}>Rise</Text>
+    <View style={styles.container}>
+      <Text style={styles.title}>Rise</Text>
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  title: {
+    fontSize: 64,
+    fontWeight: "bold",
+  },
+});
