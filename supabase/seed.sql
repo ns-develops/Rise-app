@@ -194,7 +194,7 @@ insert into "public"."zodiac_signs" ("id", "name") values
 	(11, 'Aquarius'),
 	(12, 'Pisces');
 
-insert into "public"."profiles" ("id", "first_name", "last_name", "dob", "height_cm", "neighborhood", "latitude", "longitude", "children_id", "covid_vaccine_id", "family_plan_id", "gender_id", "zodiac_sign_id", "sexuality_id", "max_distance_km", "min_age", "max_age", "phone") values
+insert into "public"."profiles" ("id", "first_name", "last_name", "dob", "height_cm", "neighborhood", "latitude", "longitude", "children_id", "covid_vaccine_id", "family_plan_id", "gender_id", "zodiac_sign_id", "sexuality_id", "max_distance_id", "min_age", "max_age", "phone") values
 	('00000000-0000-0000-0000-000000000000', 'Javel', NULL, '1995-12-25', 180, 'Montego Bay', 18.499634842789888, -77.91729233644581, 1, 1, 2, 1, 9, 1, 160, 18, 100, '18761234567'),
 	('00000000-0000-0000-0000-000000000001', 'David', NULL, '2001-11-02', 180, 'Kingston', 17.9374623588942, -76.779836513002, 1, 1, 1, 1, 8, 1, 160, 18, 100, '10000000001'),
 	('00000000-0000-0000-0000-000000000002', 'Jess', NULL, '1986-03-06', 180, 'Kingston', 17.9374623588942, -76.779836513002, 1, 1, 3, 2, 12, 1, 160, 18, 100, '10000000002'),
@@ -215,7 +215,7 @@ insert into "public"."profiles" ("id", "first_name", "last_name", "dob", "height
 	('00000000-0000-0000-0000-000000000017', 'Charlie', NULL, '1997-12-22', 180, 'Montego Bay', 18.4989969343249, -77.9174517446859, 1, 1, 2, 1, 10, 1, 160, 18, 100, '10000000017'),
 	('00000000-0000-0000-0000-000000000018', 'Kenzie', NULL, '1994-08-06', 180, 'Montego Bay', 18.4989969343249, -77.9174517446859, 1, 1, 2, 2, 5, 1, 160, 18, 100, '10000000018');
 
-insert into "public"."profile_ethnicities" ("profile_id", "ethnicity_id") values
+insert into "public"."profile_ethnicities" ("profile_id", "ethnicity") values
 	('00000000-0000-0000-0000-000000000000', 1),
 	('00000000-0000-0000-0000-000000000001', 9),
 	('00000000-0000-0000-0000-000000000002', 2),
